@@ -2,18 +2,21 @@
     list-style-type: none;
     background-color: #1D2342;
     color: #B3A315;
-    margin: 1em;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px #ccc;
     padding: 0;
+    margin: 0;
     overflow: hidden;
 }
 
 .nav li{
     float: left;
+    border-right: 1px solid #bbbbbb;
 }
 
 .nav li a{
     display: block;
-    color: #B3A315;;
+    color: #B3A315;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,3 +29,48 @@
 .active li{
     color: #ffffff;
 }
+
+h1{
+    background-color: #1D2342;
+    color: #B3A315;
+}
+
+body{
+    font-size: 1.1em;
+	background: url("../media/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ccc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    
+    }
+
+.square{
+    margin-left: 12em;
+    margin-right: 12em;
+    padding: 2em;
+    text-align: left;
+    background: rgba(255,255,255, 0.9);
+}
+
+.border {
+    border-bottom: 1.5px solid #bbbbbb;
+    font-size: 24px !important;
+}
+
+.stretch{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 2px;
+}
+.bylaw {
+	background-color: #ccc;
+	margin: 0;
+}
+
