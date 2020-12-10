@@ -45,9 +45,6 @@ body{
     margin-right: auto;
 }
 
-.image{
-    
-    }
 
 .square{
     margin-left: 12em;
@@ -69,6 +66,7 @@ body{
     width: 100%;
     margin-bottom: 2px;
 }
+
 .bylaw {
 	background-color: #ccc;
 	margin: 0;
